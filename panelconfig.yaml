@@ -1,9 +1,9 @@
 ---
 
 gradientMode: "hue"
-cellIdPreamble: "cell-LWR7Wu0hNdFT2cH279"
+cellIdPreamble: "cell-"
 cells: 
-  S-1:
+  Internet:
     dataRef: "test-data-large-cos"
     label:
       separator: "cr"
@@ -12,7 +12,7 @@ cells:
     labelColor:
       thresholdsRef: "queuedepth"
     linkRef: "grafana-home"
-  S-4:
+  Zcaler_Tunnel1":
     dataRef: "test-data-small-sin"
     label:
       separator: "cr"
@@ -21,7 +21,7 @@ cells:
     labelColor:
       thresholdsRef: "queuecount"
     linkRef: "grafana-home"
-  S-5:
+  Zcaler_Tunnel2:
     dataRef: "test-data-large-sin"
     label:
       separator: "cr"
@@ -30,7 +30,7 @@ cells:
     labelColor:
       thresholdsRef: "queuedepth"
     linkRef: "grafana-home"
-  S-9:
+  Zscaler_WAS1:
     dataRef: "test-data-small-cos"
     label:
       separator: "cr"
@@ -39,7 +39,7 @@ cells:
     labelColor:
       thresholdsRef: "queuecount"
     linkRef: "grafana-home"
-  S-11:
+  Zscaler_CHI1:
     dataRef: "test-data-large-sin"
     label:
       separator: "cr"
@@ -48,7 +48,7 @@ cells:
     labelColor:
       thresholdsRef: "queuedepth"
     linkRef: "grafana-home"
-  S-13:
+  Arista:
     dataRef: "test-data-large-sin"
     label:
       separator: "cr"
