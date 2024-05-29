@@ -1,0 +1,104 @@
+---
+
+gradientMode: "hue"
+cellIdPreamble: "LWR7Wu0hNdFT2cH279K"
+cells: 
+  S-1:
+    dataRef: "test-data-large-cos"
+    label:
+      separator: "cr"
+      units: "none"
+      decimalPoints: 0
+    labelColor:
+      thresholdsRef: "queuedepth"
+    linkRef: "grafana-home"
+  S-2:
+    dataRef: "test-data-small-sin"
+    label:
+      separator: "cr"
+      units: "none"
+      decimalPoints: 0
+    labelColor:
+      thresholdsRef: "queuecount"
+    linkRef: "grafana-home"
+  S-3:
+    dataRef: "test-data-large-sin"
+    label:
+      separator: "cr"
+      units: "none"
+      decimalPoints: 0
+    labelColor:
+      thresholdsRef: "queuedepth"
+    linkRef: "grafana-home"
+  S-4:
+    dataRef: "test-data-small-cos"
+    label:
+      separator: "cr"
+      units: "none"
+      decimalPoints: 0
+    labelColor:
+      thresholdsRef: "queuecount"
+    linkRef: "grafana-home"
+  S-5:
+    dataRef: "test-data-large-sin"
+    label:
+      separator: "cr"
+      units: "none"
+      decimalPoints: 0
+    labelColor:
+      thresholdsRef: "queuedepth"
+    linkRef: "grafana-home"
+  S-6:
+    dataRef: "test-data-large-sin"
+    label:
+      separator: "cr"
+      units: "ops"
+      decimalPoints: 0
+    labelColor:
+      thresholdsRef: "dbtrans"
+    linkRef: "grafana-home"
+ S-7:
+    dataRef: "test-data-small-cos"
+    label:
+      separator: "cr"
+      units: "ops"
+      decimalPoints: 0
+    labelColor:
+      thresholdsRef: "dbtrans"
+    linkRef: "grafana-home"
+  S-8:
+    dataRef: "test-data-small-sin"
+    label:
+      separator: "cr"
+      units: "s"
+      decimalPoints: 1
+    labelColor:
+      thresholdsRef: "queuelatency"
+    linkRef: "grafana-home"
+  S-9:
+    dataRef: "test-data-small-sin"
+    label:
+      separator: "cr"
+      units: "s"
+      decimalPoints: 1
+    labelColor:
+      thresholdsRef: "queuelatency"
+    linkRef: "grafana-home"
+  S-10:
+    dataRef: "test-data-small-cos"
+    label:
+      separator: "cr"
+      units: "s"
+      decimalPoints: 1
+    labelColor:
+      thresholdsRef: "queuelatency"
+    linkRef: "grafana-home"
+  S-14 :
+    dataRef: "test-data-small-cos"
+    label:
+      separator: "space"
+      units: "s"
+      decimalPoints: 1
+    labelColor:
+      thresholdsRef: "queuelatency"
+    linkRef: "grafana-home"
