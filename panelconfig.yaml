@@ -12,26 +12,8 @@ cells:
     labelColor:
       thresholdsRef: "queuedepth"
     linkRef: "grafana-home"
-  S-2:
-    dataRef: "test-data-small-sin"
-    label:
-      separator: "cr"
-      units: "none"
-      decimalPoints: 0
-    labelColor:
-      thresholdsRef: "queuecount"
-    linkRef: "grafana-home"
-  S-3:
-    dataRef: "test-data-large-sin"
-    label:
-      separator: "cr"
-      units: "none"
-      decimalPoints: 0
-    labelColor:
-      thresholdsRef: "queuedepth"
-    linkRef: "grafana-home"
   S-4:
-    dataRef: "test-data-small-cos"
+    dataRef: "test-data-small-sin"
     label:
       separator: "cr"
       units: "none"
@@ -48,7 +30,25 @@ cells:
     labelColor:
       thresholdsRef: "queuedepth"
     linkRef: "grafana-home"
-  S-6:
+  S-9:
+    dataRef: "test-data-small-cos"
+    label:
+      separator: "cr"
+      units: "none"
+      decimalPoints: 0
+    labelColor:
+      thresholdsRef: "queuecount"
+    linkRef: "grafana-home"
+  S-11:
+    dataRef: "test-data-large-sin"
+    label:
+      separator: "cr"
+      units: "none"
+      decimalPoints: 0
+    labelColor:
+      thresholdsRef: "queuedepth"
+    linkRef: "grafana-home"
+  S-13:
     dataRef: "test-data-large-sin"
     label:
       separator: "cr"
@@ -57,7 +57,7 @@ cells:
     labelColor:
       thresholdsRef: "dbtrans"
     linkRef: "grafana-home"
- S-7:
+ S-15:
     dataRef: "test-data-small-cos"
     label:
       separator: "cr"
@@ -66,7 +66,7 @@ cells:
     labelColor:
       thresholdsRef: "dbtrans"
     linkRef: "grafana-home"
-  S-8:
+  S-16:
     dataRef: "test-data-small-sin"
     label:
       separator: "cr"
@@ -84,7 +84,7 @@ cells:
     labelColor:
       thresholdsRef: "queuelatency"
     linkRef: "grafana-home"
-  S-10:
+  S-18:
     dataRef: "test-data-small-cos"
     label:
       separator: "cr"
