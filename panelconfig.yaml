@@ -1,7 +1,7 @@
 ---
 
 gradientMode: "hue"
-cellIdPreamble: "cell-LWR7Wu0hNdFT2cH279K"
+cellIdPreamble: "cell-LWR7Wu0hNdFT2cH279"
 cells: 
   S-1:
     dataRef: "test-data-large-cos"
